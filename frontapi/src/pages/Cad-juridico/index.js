@@ -9,10 +9,19 @@ function Cadjuridico() {
       </div>
         <div className="form-fields">
           <div className="input-box">
-            <input className="form-control"></input>
+            <input className="form-control" placeholder="Digite seu Login"></input>
           </div>
           <div className="input-box">
-            <input className="form-control" type="password"></input>
+            <input className="form-control" type="password" placeholder="Digite sua Senha"></input>
+          </div>
+          <div className="input-box">
+            <input className="form-control" placeholder="Digite seu CNPJ"></input>
+          </div>
+          <div className="input-box">
+            <input className="form-control" placeholder="Digite seu Telefone"></input>
+          </div>
+          <div className="input-box">
+            <input className="form-control" placeholder="Digite seu ENdereço"></input>
           </div>
           <div className="button-box">
             <button> Salvar</button>

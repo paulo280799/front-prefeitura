@@ -48,27 +48,14 @@ body{
 .login-form .box .form-fields .form-control{
     height: 40px;
     width: 100%;
-    padding: 0px 0px 0px 45px;
+    padding: 0px 0px 0px 5px;
     color: #444444;
     border: 1px solid #cccccc;
 }
 .login-form .box .form-fields .form-control::placeholder{
     color: #cccccc;
 }
-.login-form .box .form-fields .input-box span{
-    position: absolute;
-    left: 0px;
-    top: 0px;
-    height: 100%;
-    width: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    z-index: 1;
-}
-.login-form .box .form-fields .input-box span img{
-    width: 22px;
-}
+
 .login-form .box .form-fields .button-box{
     width: 100%;
     display: flex;
